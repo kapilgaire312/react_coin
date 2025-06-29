@@ -9,17 +9,20 @@ function CoinGrid({ coinArray, toogleWatchlist }) {
 
   return (
 
-    <div style={{ display: 'grid', gridTemplateColumns: ' 100px auto 150px auto 100px 100px  ', textAlign: 'center' }}>
+    <div style={{ display: 'grid', gridTemplateColumns: ' 100px auto 150px auto 100px 100px  ', textAlign: 'center', rowGap: '10px' }}>
 
 
+      <div style={{ display: 'contents', fontWeight: 'bold', fontSize: '18px' }}>
+        <p>S.N</p>
+        <p>Coin</p>
 
-      <p>S.N</p>
-      <p>Coin</p>
+        <p>Symbol</p>
+        <p>Price</p>
+        <p> 24h %</p>
+        <p>Watchlist</p>
 
-      <p>Symbol</p>
-      <p>Price</p>
-      <p> 24h %</p>
-      <p>Watchlist</p>
+      </div>
+
 
 
       {coinArray.map((item, index) => {

@@ -14,7 +14,7 @@ function CoinGrid({ coinArray, toogleWatchlist }) {
 
       <div style={{ display: 'contents', fontWeight: 'bold', fontSize: '18px' }}>
         <p>S.N</p>
-        <p>Coin</p>
+        <p style={{ marginLeft: '-15%' }}>Coin</p>
 
         <p>Symbol</p>
         <p>Price</p>
